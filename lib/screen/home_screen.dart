@@ -20,6 +20,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         backgroundColor: Colors.green,
       ),
+      body: Container(
+        padding: EdgeInsets.all(16),
+        child: Center(
+          child: Column(
+            children: [Image.asset("images/logo.png")],
+          ),
+        ),
+      ),
     );
   }
 }
